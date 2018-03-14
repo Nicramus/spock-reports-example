@@ -1,0 +1,17 @@
+# IDEA project files
+.idea
+**/*.iml
+
+# ECLIPSE project files
+.project
+.classpath
+.settings/
+/.factorypath
+/.externalToolBuilders
+
+# Build artifacts
+target/
+
+# Temporary files
+**/*.log
+**/pom.xml.versionsBackup

@@ -1,0 +1,10 @@
+#activemq:
+#  broker-url: vm://localhost?broker.persistent=false #tcp://localhost:61616
+
+spring: 
+  activemq:
+    broker-url: tcp://localhost:61616
+
+queue:
+  helloworld: helloworld.q
+  
